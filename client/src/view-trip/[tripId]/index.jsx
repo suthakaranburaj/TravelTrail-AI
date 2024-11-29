@@ -24,7 +24,7 @@ function ViewTrip() {
         // console.log("Firestore response:", docSnap.exists(), docSnap.data());        
 
         if(docSnap.exists()){
-            // console.log("Document:",docSnap.data());
+            console.log("Document:",docSnap.data());
             setTrip(docSnap.data());
         }
         else{
